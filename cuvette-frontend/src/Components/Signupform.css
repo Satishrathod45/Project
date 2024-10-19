@@ -1,0 +1,75 @@
+.signup-form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid blue;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.signup-form-container h2{
+  text-align: center;
+}
+
+.signup-form-container p{
+  text-align: center;
+  color: #292929B2;
+  font-size: 16px;
+  margin-top: -10px;
+  
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-with-icon input {
+  width: 100%;
+  padding-left: 40px; /* Adjust padding to make space for the icon */
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.icon-inside {
+  position: absolute;
+  left: 10px; /* Adjust icon position */
+  font-size: 1.5em;
+  color: #555;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color:#0B66EF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: -20px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.paragraph span{
+    color: blue;
+}

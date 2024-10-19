@@ -1,0 +1,38 @@
+
+.Container header{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.Container header img{
+    width: 200px;
+    height: 120px;
+    margin-top: -10px;
+
+}
+
+.Container header p{
+    margin-right: 60px;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.main{
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+    margin: 50px 40px;
+}
+
+.Paragraph{
+    flex-basis: 40%;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.Signup-form{
+    flex-basis: 40%;
+    border: 1px solid black;
+    border: 10px;
+    padding-bottom: 20px;
+}
